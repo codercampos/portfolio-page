@@ -2,3 +2,14 @@ theme: minima
 title: A good title for MAUI dev
 author: Carlos Campos
 description: A good description about this page.
+
+plugins:
+  - jekyll-polyglot
+
+languages: ["en", "es"]
+default_lang: "en"
+exclude_from_localization: ["assets/css", "assets/img"]
+parallel_localization: true
+
+sass:
+  sourcemap: never
